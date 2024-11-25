@@ -19,3 +19,10 @@ then, if all information is ok, script will power on the printer for the time ne
 - Calculates the duration, including the 30-minute additional buffer.
 - Displays a "machine in use" message along with a countdown.
 - Releases the machine for the next user after the countdown ends.
+
+For this, we’ll use:
+
+- Flask for the web server.
+- Jinja2 for HTML templating in Flask.
+- SMTP for sending email notifications.
+- Threading to handle the countdown in the background.
